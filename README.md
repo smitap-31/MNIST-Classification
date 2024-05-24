@@ -1,5 +1,8 @@
 # MNIST-Classification
 
+## Link to model 
+https://drive.google.com/file/d/1t2dJMD4xiYLDWdXk6LTSxRVO5Qq5b-cp/view?usp=sharing
+
 ## Running MLflow Tracking Server
 ```bash
 mlflow server --backend-store-uri sqlite:///mlflow.db --default-artifact-root ./mlruns
