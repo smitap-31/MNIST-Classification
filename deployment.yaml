@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: mnist-deployment
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: mnist
+  template:
+    metadata:
+      labels:
+        app: mnist
+    spec:
+      containers:
+        - name: mnist-container
+          image: smitap99/mnist-inference:latest
+          ports:
+            - containerPort: 5000
