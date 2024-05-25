@@ -3,6 +3,10 @@
 ## Link to model 
 https://drive.google.com/file/d/1t2dJMD4xiYLDWdXk6LTSxRVO5Qq5b-cp/view?usp=sharing
 
+## POSTMAN API Call Screenshot
+<img title="Postman API Call" alt="Postman API Call" src="[[/images/boo.svg](https://github.com/smitap-31/MNIST-Classification/blob/dev/screenshots/postman_call.png)](https://github.com/smitap-31/MNIST-Classification/blob/dev/screenshots/postman_call.png)">
+
+
 ## Running MLflow Tracking Server
 ```bash
 mlflow server --backend-store-uri sqlite:///mlflow.db --default-artifact-root ./mlruns
