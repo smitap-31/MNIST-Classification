@@ -10,6 +10,8 @@ https://drive.google.com/file/d/1t2dJMD4xiYLDWdXk6LTSxRVO5Qq5b-cp/view?usp=shari
 ```bash
 mlflow server --backend-store-uri sqlite:///mlflow.db --default-artifact-root ./mlruns
 ```
+## MLflow UI
+![MLFLow UI](https://github.com/smitap-31/MNIST-Classification/blob/dev/screenshots/mlflow_ui.png)
 
 ## Building and Pushing Docker Image
 ```bash
